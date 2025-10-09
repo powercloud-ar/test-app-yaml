@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
         - name: mitienda
-          image: 
+          image: powercloudar/mi-app-node:latest 
           ports:
             - containerPort: 3000
           env:
